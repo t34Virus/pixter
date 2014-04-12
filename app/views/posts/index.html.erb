@@ -1,0 +1,16 @@
+<h1 class="text-center"> WELL...ho kay </h1>
+
+<% @posts.each do |post| %>
+	<div class="launch-box span3 text-center">
+		<h1>
+			<%= post.title %>
+		</h1>
+			<p>
+
+		<%= post.description %>
+
+			</p>
+	</div>
+	
+	
+<% end %>
