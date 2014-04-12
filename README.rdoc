@@ -1,4 +1,4 @@
-== README
+== My Application is so sweet.  It's the BEEst!
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
