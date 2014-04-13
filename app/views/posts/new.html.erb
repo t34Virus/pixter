@@ -1,0 +1,13 @@
+<div class="launch-box">
+
+	<%= simple_form_for @post do |f| %>
+		<%= f.input :title %>
+		<%= f.input :description %>
+
+		<%= f.submit 'Save', :class =>
+			'btn btn-warning' %>
+
+
+	<% end %>
+
+</div>
