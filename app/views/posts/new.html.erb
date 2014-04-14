@@ -4,9 +4,12 @@
 	<br/>
 
 	<%= simple_form_for @post do |f| %>
-		<%= f.input :title, label: 'Add a title', placeholder: 'Riker, Data, Jordy, Spock, etc.' %>
+		<%= f.input :title, label: 'What is this?', placeholder: 'Fireworks, bbq steak...' %>
 		<br/>
-		<%= f.input :description, label: 'What happy?!', placeholder: 'Then we all say "Cool"' %>
+		<%= f.input :description, label: 'Then we did what?', placeholder: 'We all said, "Cool."' %>
+		
+		<%= f.input :image %>
+
 		<br/>
 		<%= f.submit 'Save', :class =>
 			'btn btn-warning' %>

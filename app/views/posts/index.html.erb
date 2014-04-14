@@ -5,6 +5,12 @@
 		<h1>
 			<%= post.title %>
 		</h1>
+
+
+		<% if post.image.present? %>
+		<%= image_tag post.image %>
+		<% end %>
+
 			<h2>
 
 		<%= post.description %>

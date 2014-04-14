@@ -32,8 +32,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# After each update, you must "exit" then "bundle install" in Web Dev then "rails server" 
+#to restart server in SECOND WINDOW
 gem "twitter-bootstrap-rails"
 gem 'simple_form'
+gem 'carrierwave'
+gem "fog", "~> 1.3.1"
+gem "figaro"
+
 
 
 
